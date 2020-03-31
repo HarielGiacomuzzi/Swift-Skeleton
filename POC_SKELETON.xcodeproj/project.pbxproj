@@ -13,6 +13,7 @@
 		DBB742E724337472004ED67C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB742E524337472004ED67C /* Main.storyboard */; };
 		DBB742E924337477004ED67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB742E824337477004ED67C /* Assets.xcassets */; };
 		DBB742EC24337477004ED67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB742EA24337477004ED67C /* LaunchScreen.storyboard */; };
+		DBB742F4243378E6004ED67C /* UIView+Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB742F3243378E6004ED67C /* UIView+Skeleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBB742E824337477004ED67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB742EB24337477004ED67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBB742ED24337477004ED67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB742F3243378E6004ED67C /* UIView+Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Skeleton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DBB742E824337477004ED67C /* Assets.xcassets */,
 				DBB742EA24337477004ED67C /* LaunchScreen.storyboard */,
 				DBB742ED24337477004ED67C /* Info.plist */,
+				DBB742F3243378E6004ED67C /* UIView+Skeleton.swift */,
 			);
 			path = POC_SKELETON;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB742E424337472004ED67C /* ViewController.swift in Sources */,
+				DBB742F4243378E6004ED67C /* UIView+Skeleton.swift in Sources */,
 				DBB742E024337472004ED67C /* AppDelegate.swift in Sources */,
 				DBB742E224337472004ED67C /* SceneDelegate.swift in Sources */,
 			);
