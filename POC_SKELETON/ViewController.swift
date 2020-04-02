@@ -50,12 +50,17 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        self.label.addSkeleton()
-        self.imageView.addSkeleton()
+        self.label.toggleSkeleton(animated: true)
+        self.imageView.toggleSkeleton(animated: true)
 
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 4.0) {
-            self.label.removeSkeleton()
-            self.imageView.removeSkeleton()
+            self.label.toggleSkeleton(animated: true)
+            self.imageView.toggleSkeleton(animated: true)
+        }
+
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 8.0) {
+            self.label.toggleSkeleton(animated: true)
+            self.imageView.toggleSkeleton(animated: true)
         }
     }
 
