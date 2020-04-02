@@ -9,11 +9,11 @@
 import UIKit
 
 /// Defines the thefault Skeleton methods used on UIView
-protocol PaylySkeleton {
+protocol Skeleton {
     func toggleSkeleton(animated: Bool?)
 }
 
-extension UIView: PaylySkeleton {
+extension UIView: Skeleton {
 
     /// Defines the default skeleton configurations,
     /// from this we can chage the default color, animation angle, animation speed,
